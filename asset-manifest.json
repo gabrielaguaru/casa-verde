@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/casa-verde/static/js/main.3ba5e942.js",
+    "static/media/produto01.svg": "/casa-verde/static/media/produto01.97a1cc25b03e886ac81c93d61a659eb5.svg",
+    "static/media/plant.png": "/casa-verde/static/media/plant.5ff7defc0c99b9e2961c.png",
+    "static/media/mid-plant.png": "/casa-verde/static/media/mid-plant.a3de030c62b3ec1399e3.png",
+    "static/media/produto03.png": "/casa-verde/static/media/produto03.610d2fc94326f530c7e3.png",
+    "static/media/produto04.png": "/casa-verde/static/media/produto04.ec9ecdb5ff969cf7e663.png",
+    "static/media/produto06.png": "/casa-verde/static/media/produto06.97ecf8df42cf2adbf04e.png",
+    "static/media/produto01.png": "/casa-verde/static/media/produto01.6888242f35346d02554d.png",
+    "static/media/produto05.png": "/casa-verde/static/media/produto05.5b333aec611ae6ffb9e5.png",
+    "static/media/produto02.png": "/casa-verde/static/media/produto02.d57729c5a3943b04614c.png",
+    "static/media/logo.svg": "/casa-verde/static/media/logo.003db44dbb91cc7e9c39dca6fff7927a.svg",
+    "index.html": "/casa-verde/index.html",
+    "static/media/vector.svg": "/casa-verde/static/media/vector.b20ab58aeda9c9e938cd5f39f884d3f0.svg",
+    "static/media/mail.svg": "/casa-verde/static/media/mail.9bc5c99808a9b4b3541e1b4b1718325a.svg",
+    "main.3ba5e942.js.map": "/casa-verde/static/js/main.3ba5e942.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3ba5e942.js"
+  ]
+}
