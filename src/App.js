@@ -1,12 +1,16 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Newsletter from "./components/Newsletter/Newsletter";
+import Newsletter from "./components/Newsletter/Newsletter.js";
 import HowTo from "./components/HowTo/HowTo";
 import Offers from "./components/Offers/Offers";
 import { createGlobalStyle } from "styled-components";
-import Background from "./assets/line.png"
+import Background from "./assets/line.png";
 
 const GlobalStyle = createGlobalStyle`
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
         background-color: #fafafa;
         margin: 0 15%;
@@ -22,6 +26,23 @@ const GlobalStyle = createGlobalStyle`
     `;
 
 const App = () => {
+  const links = document.querySelectorAll("li a[href^='#']");
+  console.log(links, "teset");
+
+  function scrollToSection(event) {
+    event.preventDefault();
+    const href = event.currentTarget.getAttribute("href");
+    console.log(href)
+    const section = document.querySelector(href);
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+
+  links.forEach((link) => {
+    link.addEventListener("click", scrollToSection);
+  });
   return (
     <>
       <GlobalStyle />

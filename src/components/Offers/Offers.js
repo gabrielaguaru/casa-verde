@@ -16,7 +16,7 @@ import {
 
 const Offers = () => {
   return (
-    <OffersSection id="offers">
+    <OffersSection id="offers" className="scroll">
       <OffersTitle>Conheça nossas</OffersTitle>
       <span>ofertas</span>
       <CardsWrapper>

@@ -74,7 +74,7 @@ export const Card = styled.article`
 `;
 
 export const Description = styled.div`
-  width: 50%;
+  width: 49%;
   position: absolute;
   right: -1.1rem;
   padding-top: 1.5rem;

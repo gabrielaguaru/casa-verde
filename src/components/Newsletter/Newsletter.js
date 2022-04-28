@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import Form from "../Form/Form";
 import Plant from "../../assets/plant.png";
 import Vector from "../../assets/vector.svg";
 import { NewsletterSection, Description, Images, VectorImage } from "./style.js";
+import Header from "../Header/Header.js"
 
 const Newsletter = () => {
+  const newsletter = useRef();
   return (
-    <NewsletterSection id="main">
+    <NewsletterSection ref={newsletter}>
       <Description>
         <h1>Sua casa com as</h1>
         <span>melhores plantas</span>
