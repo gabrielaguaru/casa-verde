@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/casa-verde/static/js/main.3ba5e942.js",
+    "main.js": "/casa-verde/static/js/main.f309c4cb.js",
     "static/media/produto01.svg": "/casa-verde/static/media/produto01.97a1cc25b03e886ac81c93d61a659eb5.svg",
     "static/media/plant.png": "/casa-verde/static/media/plant.5ff7defc0c99b9e2961c.png",
     "static/media/mid-plant.png": "/casa-verde/static/media/mid-plant.a3de030c62b3ec1399e3.png",
@@ -14,9 +14,9 @@
     "index.html": "/casa-verde/index.html",
     "static/media/vector.svg": "/casa-verde/static/media/vector.b20ab58aeda9c9e938cd5f39f884d3f0.svg",
     "static/media/mail.svg": "/casa-verde/static/media/mail.9bc5c99808a9b4b3541e1b4b1718325a.svg",
-    "main.3ba5e942.js.map": "/casa-verde/static/js/main.3ba5e942.js.map"
+    "main.f309c4cb.js.map": "/casa-verde/static/js/main.f309c4cb.js.map"
   },
   "entrypoints": [
-    "static/js/main.3ba5e942.js"
+    "static/js/main.f309c4cb.js"
   ]
 }
